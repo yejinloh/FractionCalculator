@@ -24,6 +24,7 @@ class _MyAppState extends State<MyApp> {
         return MaterialApp(
            title: 'Fraction Calculator',
            home: Scaffold(
+                       resizeToAvoidBottomInset: false,
              appBar: AppBar(
               title: Text('Fraction Calculator'),
              ),
